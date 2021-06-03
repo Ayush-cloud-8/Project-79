@@ -12,7 +12,7 @@ for (i = 0; i < menu_list_array.length; i++) {
     console.log(i);
     console.log(display_menu);
 }
-
+with_update.sort();
 var space = with_update.join(" ");
 console.log(space);
 document.getElementById("display_menu").innerHTML = space;
